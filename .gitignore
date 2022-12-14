@@ -1,0 +1,5 @@
+/Movie-Recommender
+/Kaggle-Datasets
+*.csv
+/static/fonts
+*.env
