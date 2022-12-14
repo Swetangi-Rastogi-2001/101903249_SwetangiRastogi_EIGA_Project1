@@ -60,7 +60,7 @@ One main issue is that users’ preference can change over time. It indicates th
 Likewise, the similarity can be computed with Pearson Correlation or Cosine Similarity.
 The major difference is that, in this, we fill in the blank vertically, as oppose to the horizontal manner that user-based CF does.
 
-### 4. Results
+## 4. Results
 
 ![image](https://user-images.githubusercontent.com/56411093/181223016-53cb44d8-f488-4963-a6c5-d2d42746fb31.png)
 ![image](https://user-images.githubusercontent.com/56411093/181223030-ae1c2d3d-e67b-43ed-b4d0-65f214fc51ba.png)
