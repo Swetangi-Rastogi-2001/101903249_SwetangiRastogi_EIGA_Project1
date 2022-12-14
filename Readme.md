@@ -1,19 +1,17 @@
-# Movie Recommendation system
+# EIGA: Movie Recommendation system
 
 ## INTRODUCTION
 
-Recommender systems are used for providing personalized recommendations based on the user profile and previous behaviour. Recommender systems such as Amazon, Netflix, and YouTube are widely used in the Internet Industry. Recommendation systems help the users to find and select items (e.g., books, movies, restaurants) from the wide collection available on the web or in other electronic information sources. Among a large set of items and a description of the user’s needs, they present to the user a small set of the items that are well suited to the description.
+The goal of this project is to develop a movie recommendation system based on recommendation algorithms that personalize the user's movie choices. These algorithms use the user's profile and past behavior to generate personalized recommendations. Popular examples of recommendation systems include Amazon, Netflix, and YouTube. These systems help users find and select items from a vast collection of items available on the internet or other electronic information sources. By analyzing a user's needs and preferences, these systems present a small selection of items that are well-suited to the user. There are several approaches commonly used in recommendation algorithms, including collaborative filtering, content-based filtering, and hybrid methods.
 This project focuses on Movie recommendation.
+
 Recommendation algorithms mainly follow following approaches: 
 
--	**Content-based filtering**: They suggest similar items based on a particular item. This system uses item metadata, such as genre, director, description, actors, etc. for movies, to make these recommendations. 
+-	**Content-based filtering**: One approach used in recommendation systems is content-based filtering. This approach suggests similar items based on the metadata of a particular item. For example, in a movie recommendation system, this approach would use metadata such as genre, director, description, actors, etc. to make recommendations. By analyzing the metadata of the items a user has shown interest in, the system can recommend other similar items that the user may enjoy. This approach can be effective in making personalized recommendations, as it takes into account the specific interests and preferences of the user. 
 
--	**Collaborative filtering**: user-to-user and item-to-item
-This system matches persons with similar interests and provides recommendations based on this matching. 
-It does not require item metadata like its content-based counterparts, but requires usres and there respective ratings.
+-	**Collaborative filtering**: Another approach used in recommendation systems is collaborative filtering. This approach matches users with similar interests and provides recommendations based on this matching. Unlike content-based filtering, which uses item metadata to make recommendations, collaborative filtering does not require item metadata. Instead, it relies on the ratings and preferences of users to make recommendations. For example, if two users have similar ratings for a set of movies, the system may recommend the same movies to both users. This approach can be effective in making personalized recommendations because it takes into account the specific interests and preferences of individual users. However, it may not be as effective in recommending new or unfamiliar items, as it relies on the ratings and preferences of other users.
 
--	**Demographic**: They offer generalized recommendations to every user, based on movie popularity and/or genre. 
-The System recommends the same movies to users with similar demographic features. The basic idea behind this system is that movies that are more popular and critically acclaimed will have a higher probability of being liked by the average audience.
+-	**Demographic**: A third approach commonly used in recommendation systems is the use of popularity or genre-based recommendations. This approach offers generalized recommendations to all users, based on the popularity or genre of the items. For example, a movie recommendation system may recommend the most popular movies or the most popular movies in a particular genre to all users. This approach is simple and easy to implement, as it does not require the use of complex algorithms or user data. However, it may not be as effective in making personalized recommendations, as it does not take into account the specific interests and preferences of individual users.
 
 -	**Knowledge-based**: It suggests products based on inferences about user’s needs and preferences, item selection and its basis for recommendation.
 
@@ -93,16 +91,4 @@ NN model performed better.
 ![image](https://user-images.githubusercontent.com/56411093/181219949-3fa1932a-b146-46c5-9f15-c56a018daf28.png)
 
 
-## Further to-do:
-- Automatically add new released movies after week of there release in dataset.
-- Create dataset for collborative filtering, i.e need user ratings and movie ratings for the movies for my dataset.
-
-
-### REFERENCES
-
-1.	[Github user](https://github.com/kishan0725/AJAX-Movie-Recommendation-System-with-Sentiment-Analysis) 
-2.	[Kaggle](https://www.kaggle.com/code/rounakbanik/movie-recommender-systems/notebook)
-3.	[Collaborative Filtering]() : medium article
-4.	Reddy, S. R. S., et al. "Content-based movie recommendation system using genre correlation." Smart Intelligent Computing and Applications. Springer, Singapore, 2019. 391-397.
-5.	Paknejad, Sepideh. "Sentiment classification on Amazon reviews using machine learning approaches." (2018).
 
