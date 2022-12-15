@@ -65,12 +65,13 @@ The major difference is that, in this, we fill in the blank vertically, as oppos
 ![image](https://user-images.githubusercontent.com/56411093/181223016-53cb44d8-f488-4963-a6c5-d2d42746fb31.png)
 ![image](https://user-images.githubusercontent.com/56411093/181223030-ae1c2d3d-e67b-43ed-b4d0-65f214fc51ba.png)
 
-In content-based we see that for our system is able to identify it as a Batman film and subsequently recommend other Batman films as its top recommendations. Also this takes into considerations very important features such as **cast, crew, director and genre**, which determine the rating and the popularity of a movie. 
+In content-based filtering, the system uses the characteristics of a particular item (in this case, a movie) to recommend other similar items. In the example given, the system was able to identify "The Dark Knight" as a Batman movie and recommended other Batman movies based on factors such as the cast, crew, director, and genre.
 
-In case of Collaborative Filtering recommendations are personalized to that user as someone who liked “The Dark Knight” probably likes it more because of Nolan and would love movies made by him. From these results its clear that for the same movie **collaborative filtering gives much better recommendations than content-based filtering**.
+Collaborative filtering, on the other hand, uses the preferences and behaviors of other users to make recommendations. In the example given, a user who liked "The Dark Knight" would likely be recommended other movies by the same director, Christopher Nolan, as these would be personalized to their tastes.
 
-Another experiment was that it recommends movies regardless of ratings and popularity. As all movies recommended by content-based has a lot of similar characters as compared to The Dark Knight but all  movies aren’t that great. Therefore, I added a mechanism to remove bad movies and return movies which are popular and have had a good critical response.
-I took the top 25 movies based on similarity scores and calculate the vote of the 60th percentile movie. Then, using this as the value of m, I calculated the weighted rating of each movie using IMDB's formula.
+Overall, it appears that collaborative filtering provides better recommendations than content-based filtering, as it takes into account the individual preferences of users.
+
+To improve the recommendations, the system was modified to only recommend movies that are popular and have received positive critical response. This was done by removing movies with low ratings and only considering the top 25 movies with the highest similarity scores. A weighted rating was then calculated for each movie using IMDB's formula. This approach provides a more refined list of recommendations, as it eliminates poor-quality movies.
 
 ![image](https://user-images.githubusercontent.com/56411093/181223271-a0d342c1-a379-4755-9bed-023afbd1399d.png)
 
