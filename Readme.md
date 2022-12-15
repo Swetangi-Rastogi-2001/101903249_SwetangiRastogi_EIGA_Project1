@@ -85,7 +85,7 @@ NN model performed better.
 
  
 ## 5. LIVE LINK
-https://watch-guide.azurewebsites.net/
+https://tinyurl.com/eiga-by-swetangi
 
 ## 6. SCREENSHOTS
 ![image](https://user-images.githubusercontent.com/56411093/181219781-4ad85be2-6c56-42df-b38a-810f38d3e6cf.png)
