@@ -28,7 +28,7 @@ recommender systems with collaborative or content-based systems, the recommendat
 
 Scrapping using beautiful soup from imdb website that shows list of films year wise, used **Beautiful Soup** library in python and passed the url of IMDB website that sorted movies based on of number of votes over years 1991-2022.
 
-[Collaborative-filerting dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset?select=ratings_small.csv)
+[Collaborative-filtering dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset?select=ratings_small.csv)
 
 [Sentiment-analysis dataset](https://www.kaggle.com/datasets/columbine/imdb-dataset-sentiment-analysis-in-csv-format)
 
